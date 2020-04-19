@@ -1,0 +1,28 @@
+form{
+  position: relative;
+  label{
+    background-color: #AD5E6C;
+    color: white;
+    font-size: 12px;
+    max-width: 250px;
+    max-height: 20px;
+    padding: 5px;
+    position: absolute;
+  }
+  input{
+    margin: 20px;
+  }
+  button{
+    color: white;
+    background-color: #565882;
+    border-radius: 5px;
+    width: 100px;
+    line-height: 1.7em;
+    text-decoration: none;
+    border: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    &:disabled{
+      background-color: grey;
+    }
+  }
+}
