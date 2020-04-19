@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CityTable rendering should render CityTable component 1`] = `1`;
