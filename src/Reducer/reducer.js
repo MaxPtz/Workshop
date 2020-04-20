@@ -12,7 +12,7 @@ export const reducer = (state = initialState, action) => {
             return {
                 ...state,
                 items: action.payload.data,
-                count: action.payload.total,
+                count: action.payload.count,
                 loading: false,
             }
         case FETCH_ITEMS.PENDING:

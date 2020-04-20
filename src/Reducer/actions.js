@@ -30,16 +30,30 @@ function fetchItemFailure(error) {
     }
 }
 
-export const fetchCities = (url) => (dispatch) => {
+export const fetchCities = (url) => async (dispatch) => {
     dispatch(fetchItemBegin())
-    return fetch(url)
-        .then((response) => {
-            if (!response.ok) {
-                throw Error(response.statusText)
+    try {
+        const resp = await fetch(url)
+        let respJson = await resp.json()
+        if (respJson.total_pages > 1) {
+            const apiPromises = []
+            let i = 2
+            // eslint-disable-next-line no-plusplus
+            for (i; i <= respJson.total_pages; i++) {
+                apiPromises.push(fetch(`${url}&page=${i}`))
             }
-            return response
-        })
-        .then((response) => response.json())
-        .then((items) => dispatch(fetchItemSuccess(items)))
-        .catch((error) => dispatch(fetchItemFailure(error)))
+            const multipleResp = await Promise.all(apiPromises)
+            const multipleRespJson = await Promise.all(
+                multipleResp.map((res) => res.json())
+            )
+            respJson = {
+                ...respJson,
+                data: [...respJson.data, ...multipleRespJson[0].data],
+            }
+        }
+        dispatch(fetchItemSuccess(respJson))
+    } catch (e) {
+        console.log(e)
+        dispatch(fetchItemFailure(e))
+    }
 }

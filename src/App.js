@@ -6,8 +6,7 @@ import Form from './Components/Form'
 import { CityTable } from './Components/CityTable'
 
 export default () => {
-    const { items, loading, error } = useSelector((state) => state)
-
+    const { items, count, loading, error } = useSelector((state) => state)
     return (
         <div className="city-search">
             <h2 className="title">Workshop City Search</h2>
@@ -23,9 +22,7 @@ export default () => {
             {error ? <div>OOOOPS an error occured</div> : null}
             {items ? (
                 <div className="results">
-                    <div className="total">
-                        Total cities found: {Object.keys(items).length}
-                    </div>
+                    <div className="total">Total cities found: {count}</div>
                     <CityTable cities={items} />
                 </div>
             ) : null}

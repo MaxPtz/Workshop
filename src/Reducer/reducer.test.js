@@ -28,7 +28,7 @@ describe('reducer', () => {
                 type: FETCH_ITEMS.SUCCESS,
                 payload: {
                     data: { uk: { state: 'uk', city: ['london'] } },
-                    total: 1,
+                    count: 1,
                 },
             })
         ).toEqual({
