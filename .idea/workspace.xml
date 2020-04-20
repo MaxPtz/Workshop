@@ -2,22 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2a6bee2-94ed-48f7-b3a6-732691719e2b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/CityTable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/CityTable.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Form.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/city-table.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/form.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Reducer/actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/actions.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Reducer/actions.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Reducer/reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducer.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Reducer/reducer.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Reducer/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Form.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Form.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Reducer/actions.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Reducer/actions.test.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,7 +17,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="239" />
+    <option name="myElementSize" value="258" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -100,21 +91,7 @@
       <scope-kind value="ALL" />
       <method v="2" />
     </configuration>
-    <configuration name="App rendering.should render App component" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/App.test.js" />
-      <test-names>
-        <test-name value="App rendering" />
-        <test-name value="should render App component" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="CityTable rendering" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="App rendering" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
@@ -123,35 +100,62 @@
       <scope-kind value="SUITE" />
       <test-file value="$PROJECT_DIR$/src/App.test.js" />
       <test-names>
-        <test-name value="CityTable rendering" />
+        <test-name value="App rendering" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="reducer.should handle Fetch Success" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="Form testing" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/src/Components/Form.test.js" />
+      <test-names>
+        <test-name value="Form testing" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Form testing.Should capture input value onChange" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/reducer.test.js" />
+      <test-file value="$PROJECT_DIR$/src/Components/Form.test.js" />
       <test-names>
-        <test-name value="reducer" />
-        <test-name value="should handle Fetch Success" />
+        <test-name value="Form testing" />
+        <test-name value="Should capture input value onChange" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="reducer.should return initialState" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="Form testing.should render the Form component" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/reducer.test.js" />
+      <test-file value="$PROJECT_DIR$/src/Components/Form.test.js" />
       <test-names>
-        <test-name value="reducer" />
-        <test-name value="should return initialState" />
+        <test-name value="Form testing" />
+        <test-name value="should render the Form component" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="fetch data tests.calls request and success actions if the fetch response was successful" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/Reducer/actions.test.js" />
+      <test-names>
+        <test-name value="fetch data tests" />
+        <test-name value="calls request and success actions if the fetch response was successful" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -172,17 +176,19 @@
       <item itemvalue="JavaScript Debug.Debug Application" />
       <item itemvalue="Jest.All Tests" />
       <item itemvalue="npm.npm start" />
-      <item itemvalue="Jest.reducer.should handle Fetch Success" />
-      <item itemvalue="Jest.reducer.should return initialState" />
-      <item itemvalue="Jest.App rendering.should render App component" />
-      <item itemvalue="Jest.CityTable rendering" />
+      <item itemvalue="Jest.fetch data tests.calls request and success actions if the fetch response was successful" />
+      <item itemvalue="Jest.App rendering" />
+      <item itemvalue="Jest.Form testing" />
+      <item itemvalue="Jest.Form testing.should render the Form component" />
+      <item itemvalue="Jest.Form testing.Should capture input value onChange" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Jest.CityTable rendering" />
-        <item itemvalue="Jest.App rendering.should render App component" />
-        <item itemvalue="Jest.reducer.should return initialState" />
-        <item itemvalue="Jest.reducer.should handle Fetch Success" />
+        <item itemvalue="Jest.Form testing" />
+        <item itemvalue="Jest.Form testing.Should capture input value onChange" />
+        <item itemvalue="Jest.Form testing.should render the Form component" />
+        <item itemvalue="Jest.App rendering" />
+        <item itemvalue="Jest.fetch data tests.calls request and success actions if the fetch response was successful" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +202,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1587282782675</updated>
-      <workItem from="1587282784844" duration="24444000" />
+      <workItem from="1587282784844" duration="29204000" />
     </task>
     <servers />
   </component>
@@ -215,6 +221,8 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/workshop$All_Tests.info" NAME="All Tests Coverage Results" MODIFIED="1587335959217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/workshop$Form_testing.info" NAME="Form testing Coverage Results" MODIFIED="1587373800468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/workshop$fetch_data_tests_should_start_request_to_API.info" NAME="fetch data tests.should start request to API Coverage Results" MODIFIED="1587370041002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/workshop$All_Tests.info" NAME="All Tests Coverage Results" MODIFIED="1587373831444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

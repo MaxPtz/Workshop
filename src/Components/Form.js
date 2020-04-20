@@ -27,6 +27,7 @@ export default () => {
                 No space, no numbers, only letters !
             </label>
             <input
+                id="form-input"
                 type="text"
                 className={validation(inputValue) ? '' : 'input-not-valid'}
                 onChange={(e) => handleChange(e)}
