@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a2a6bee2-94ed-48f7-b3a6-732691719e2b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Reducer/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Reducer/actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Reducer/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Reducer/reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Reducer/reducer.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Reducer/reducer.test.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -200,7 +197,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1587282782675</updated>
-      <workItem from="1587282784844" duration="34907000" />
+      <workItem from="1587282784844" duration="35827000" />
     </task>
     <servers />
   </component>

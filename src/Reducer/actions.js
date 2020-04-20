@@ -46,9 +46,10 @@ export const fetchCities = (url) => async (dispatch) => {
             const multipleRespJson = await Promise.all(
                 multipleResp.map((res) => res.json())
             )
+            const newData = _.flatten(multipleRespJson.map((data) => data.data))
             respJson = {
                 ...respJson,
-                data: [...respJson.data, ...multipleRespJson[0].data],
+                data: [...respJson.data, ...newData],
             }
         }
         dispatch(fetchItemSuccess(respJson))
